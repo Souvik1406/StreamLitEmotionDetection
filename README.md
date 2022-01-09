@@ -17,4 +17,4 @@ Streamli sharing won't work either as it is only ideal for single page streamlit
 
 #Anyways if anyone manages to make the hosting please commit to this readme file with the link. The ML model is basic and uses pre-defined libraries of trained and tested models and works in the API -> Server -> Client using the  automated libraries of streamlit. You can add custom markdown on streamlit apps and can even ecentrisize react front-end.
 
-#### hank You #####
+#### Thank You #####
