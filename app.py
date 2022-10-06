@@ -48,6 +48,7 @@ class Faceemotion(VideoTransformerBase):
                 output = str(finalout)
             label_position = (x, y)
             cv2.putText(img, output, label_position, cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(img,output,y_label,x_label,1,255,0.7)
 
         return img
 
