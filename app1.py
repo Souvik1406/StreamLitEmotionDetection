@@ -25,7 +25,7 @@ except Exception:
 
 class VideoTransformer(VideoTransformerBase):
     def transform(self, frame):
-        img = frame.to_ndarray(format="bgr24")
+        img = frame.to_ndarray(format="bgr24") * 0.05
 
         #image gray
         img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
